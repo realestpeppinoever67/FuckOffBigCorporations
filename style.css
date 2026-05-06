@@ -1,0 +1,112 @@
+:root {
+    --base03: #002b36;
+    --base02: #073642;
+    --base01: #586e75;
+    --base00: #657b83;
+    --base0: #839496;
+    --base1: #93a1a1;
+    --base2: #eee8d5;
+    --base3: #fdf6e3;
+
+    --yellow: #b58900;
+    --orange: #cb4b16;
+    --red: #dc322f;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+}
+
+@font-face {
+    font-family: Climate Crisis;
+    src: url(./fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf);
+}
+
+#title {
+    font-size: 10vh;
+    text-align: center;
+    font-family: "Climate Crisis", sans-serif;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#titledrop {
+    height: 100vh;
+    background: var(--base02);
+    border-radius: 0 0 5em 5em;
+    box-shadow: 0 0px 30px var(--base1);
+    align-content: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+}
+
+.titlesub {
+    font-family: "Climate Crisis", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: var(--base2);
+    font-size: 3em;
+    margin-top: 0;
+}
+
+.arrow {
+    width: 5em;
+    text-align: center;
+    color: var(--base00);
+    font-size: 2em;
+}
+
+.arrowholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shine {
+    text-shadow: black 0 0 10px;
+    /*text-decoration-line: underline;*/
+    /*text-decoration-thickness: 10px;*/
+    /*text-decoration-color: #2aa198;*/
+}
+
+body {
+    background: var(--base03);
+    color: var(--base2);
+    margin: 0;
+}
+
+hr {
+    color: var(--base3);
+}
+
+h1 {
+    color: var(--base3);
+}
+
+.bp {
+    display: flex;
+    width: 100%;
+    background: var(--base01);
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: var(--base02) 20px 20px 20px,
+            /*var(--base01) 0 0 50px,*/
+    var(--base02) 0 0 20px inset;
+}
+
+.bp > img {
+    border-radius: 20px;
+    height: fit-content;
+    max-height: 400px;
+}
+
+.bptext {
+    width: inherit;
+    margin: 10px;
+}
+
+.right {
+    text-align: right;
+}
