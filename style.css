@@ -100,7 +100,7 @@ h1 {
 .bp > img {
     border-radius: 20px;
     height: fit-content;
-    max-height: 30vw;
+    max-width: 40vw;
 }
 
 .bptext {
@@ -110,4 +110,21 @@ h1 {
 
 .right {
     text-align: right;
+}
+
+.vertical {
+    background: var(--base02);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.vertical > div {
+    background: var(--base01);
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    border-radius: 1em;
 }
